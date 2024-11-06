@@ -4,7 +4,7 @@
 !.mvn/
 !.project
 !pom.xml
-.classpath
+!.classpath
 !src/
 src/*
 !src/main/
