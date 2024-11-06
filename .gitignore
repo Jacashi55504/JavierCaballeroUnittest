@@ -1,64 +1,28 @@
-# Ignorar todos los archivos por defecto
-*
 
-# No ignorar el archivo .gitignore
+# Ignor all
+*
 !.gitignore
 
-# No ignorar el archivo pom.xml
 !pom.xml
-
-# No ignorar el directorio src
 !src/
-
-# Ignorar todo dentro del directorio src
 src/*
-
-# No ignorar el directorio main dentro de src
 !src/main/
-
-# Ignorar todo dentro del directorio main
 src/main/*
-
-# No ignorar el directorio java dentro de main
 !src/main/java/
-
-# Ignorar todo dentro del directorio java
 src/main/java/*
-
-# No ignorar el directorio com dentro de java
 !src/main/java/com/
-
-# Ignorar todo dentro del directorio com
 src/main/java/com/*
-
-# No ignorar el directorio mayab dentro de com
 !src/main/java/com/mayab/
-
-# Ignorar todo dentro del directorio mayab
 src/main/java/com/mayab/*
-
-# No ignorar el directorio quality dentro de mayab
 !src/main/java/com/mayab/quality/
-
-# Ignorar todo dentro del directorio quality
 src/main/java/com/mayab/quality/*
-
-# No ignorar el directorio logginunittest dentro de quality
 !src/main/java/com/mayab/quality/logginunittest/
-
-# Ignorar todo dentro del directorio logginunittest
 src/main/java/com/mayab/quality/logginunittest/*
-
-# No ignorar el directorio service dentro de logginunittest
 !src/main/java/com/mayab/quality/logginunittest/service/
-
-# Ignorar todo dentro del directorio service
 src/main/java/com/mayab/quality/logginunittest/service/*
-
-# No ignorar el archivo UserService.java dentro de service
 !src/main/java/com/mayab/quality/logginunittest/service/UserService.java
 
-# Repetir la estructura anterior para src/test
+# test
 !src/test/
 src/test/*
 !src/test/java/
