@@ -28,6 +28,11 @@ src/main/java/com/mayab/quality/logginunittest/service/*
 src/main/java/com/mayab/quality/logginunittest/dao/*
 !src/main/java/com/mayab/quality/logginunittest/dao/IDAOUser.java
 
+# Include User
+!src/main/java/com/mayab/quality/logginunittest/model/
+src/main/java/com/mayab/quality/logginunittest/model/*
+!src/main/java/com/mayab/quality/logginunittest/model/User.java
+
 # test
 !src/test/
 src/test/*
