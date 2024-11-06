@@ -1,10 +1,10 @@
-
 .classpath
 !.gitignore
 
 !.mvn/
 !.project
 !pom.xml
+.classpath
 !src/
 src/*
 !src/main/
@@ -23,6 +23,11 @@ src/main/java/com/mayab/quality/logginunittest/*
 src/main/java/com/mayab/quality/logginunittest/service/*
 !src/main/java/com/mayab/quality/logginunittest/service/UserService.java
 
+# Include dao package
+!src/main/java/com/mayab/quality/logginunittest/dao/
+src/main/java/com/mayab/quality/logginunittest/dao/*
+!src/main/java/com/mayab/quality/logginunittest/dao/IDAOUser.java
+
 # test
 !src/test/
 src/test/*
@@ -39,7 +44,6 @@ src/test/java/com/mayab/quality/unittest/*
 !src/test/java/com/mayab/quality/unittest/service/
 src/test/java/com/mayab/quality/unittest/service/*
 !src/test/java/com/mayab/quality/unittest/service/UserServiceTest.java
-
 
 # Java-specific ignore patterns
 *.class
