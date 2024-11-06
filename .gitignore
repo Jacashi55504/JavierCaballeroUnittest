@@ -1,11 +1,11 @@
 
 # Ignor all
 *
+.classpath
 !.gitignore
 
-
-!.mvn
-!target
+!.mvn/
+!target/
 !.project
 !pom.xml
 !src/
