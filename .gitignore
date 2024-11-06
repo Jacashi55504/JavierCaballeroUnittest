@@ -3,6 +3,9 @@
 *
 !.gitignore
 
+
+!.mvn
+!target
 !.project
 !pom.xml
 !src/
