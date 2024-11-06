@@ -1,16 +1,17 @@
-# Compiled class file
+# Ignore everything
+*
+
+# Exceptions - Include specific files
+!src/main/java/com/mayab/quality/logginunittest/service/UserService.java
+!src/test/java/com/mayab/quality/unittest/service/UserServiceTest.java
+
+!pom.xml
+!LICENSE
+!README.md
+
+# Java-specific ignore patterns
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -18,12 +19,7 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
-
-#Personal
-!src/main/java/com/mayab/quality/logginunittest/service/UserService.java
-!src/test/java/com/mayab/quality/logginunittest/service/UserServiceTest.java
-!pom.xml
+.mtj.tmp/
+*.ctxt
